@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "data": {
+    "endstop": {
+      "command": "M666",
+      "params": { "Y": null, "X": null, "Z": null }
+    },
+    "bed_pid": {
+      "command": "M304",
+      "params": { "I": 78.92, "P": 426.68, "D": 576.71 }
+    },
+    "feedrate": {
+      "command": "M203",
+      "params": { "Y": 4800.0, "X": 4800.0, "Z": 100.0, "E": 25.0 }
+    },
+    "hotend_pid": {
+      "command": "M301",
+      "params": { "I": 1.03, "P": 19.27, "D": 89.76 }
+    },
+    "linear": { "command": "M900", "params": { "K": 0.1 } },
+    "print_acceleration": {
+      "command": "M204",
+      "params": { "P": 500.0, "R": 1000.0, "T": 800.0 }
+    },
+    "home_offset": {
+      "command": "M206",
+      "params": { "Y": 0.0, "X": 0.0, "Z": 0.0 }
+    },
+    "filament_change": {
+      "command": "M603",
+      "params": { "U": 420.0, "L": 0.0 }
+    },
+    "probe_offset": {
+      "command": "M851",
+      "params": { "Y": 10.6, "X": 35.57, "Z": -2.6 }
+    },
+    "material1": {
+      "command": "M145",
+      "params": { "H": 190.0, "S": 0.0, "B": 70.0, "F": 0.0 }
+    },
+    "material2": {
+      "command": "M145",
+      "params": { "H": 240.0, "S": 1.0, "B": 110.0, "F": 0.0 }
+    },
+    "filament": { "command": "M200", "params": { "D": 1.75 } },
+    "steps": {
+      "command": "M92",
+      "params": { "Y": 200.0, "X": 200.0, "Z": 400.0, "E": 26.02 }
+    },
+    "max_acceleration": {
+      "command": "M201",
+      "params": { "Y": 500.0, "X": 500.0, "Z": 100.0, "E": 3000.0 }
+    },
+    "delta": {
+      "command": "M665",
+      "params": {
+        "B": null,
+        "H": null,
+        "L": null,
+        "S": null,
+        "R": null,
+        "Y": null,
+        "X": null,
+        "Z": null
+      }
+    },
+    "autolevel": { "command": "M420", "params": { "S": 1.0, "Z": 10.0 } },
+    "advanced": {
+      "command": "M205",
+      "params": {
+        "B": 20000.0,
+        "E": null,
+        "J": 0.02,
+        "S": 0.0,
+        "T": 0.0,
+        "Y": null,
+        "X": null,
+        "Z": null
+      }
+    }
+  },
+  "name": "eeprom_backup-20210309-045056",
+  "time": "2021-03-09 04:50:56"
+}
